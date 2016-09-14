@@ -1,0 +1,23 @@
+baseurl: ""
+url: "http://www.padariamorumbi.com.br"
+markdown: kramdown
+
+theme:
+  title: Padaria Morumbi
+  image_home: /img/header.png
+  keywords: "pirassununga, padaria, panificadora, morumbi"
+  description: "Para ver nossos preços entre em contato"
+  autor: "Maciel Escudero Bombonato"
+  reply: "maciel.bombonato@gmail.com"
+  facebookTitle: Padaria Morumbi
+  facebookDescription: "TESTE"
+
+  header_text: >
+     <p>TESTE 1</p>
+
+     <p>TESTE 2</p>
+
+  rss: true
+  email: "maciel.bombonato@gmail.com"
+
+  google_analytics: "UA-XXXX-1"

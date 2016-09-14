@@ -1,0 +1,30 @@
+---
+layout: landing-page
+---
+
+<section id="main" class="wrapper style1">
+    {% for product in site.products %}
+        <div class="wrapper {% cycle 'style1', 'style2' %}">
+            <header class="major">
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ product.title }}</a></h2>
+                <p class="post-meta" style="margin-bottom: 20px;padding-bottom: 0;">{{ product.date | date: "%b %-d, %Y" }}{% if product.author %} • {{ product.author }}{% endif %}</p>
+            </header>
+
+            <section class="container">
+                {% if product.isResume == 1 %}
+                  {{ product.resume }}
+                {% else %}
+                  {{ product.excerpt }}
+                {% endif %}
+                <br/><br/>
+            </section>
+
+            <section class="special">
+                <ul class="actions">
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
+                </ul>
+            </section>
+
+        </div>
+    {% endfor %}
+</section>
