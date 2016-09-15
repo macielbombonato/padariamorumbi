@@ -1,23 +1,11 @@
-baseurl: ""
-url: "http://www.padariamorumbi.com.br"
+# Site settings
+title: Padaria Morumbi
+email: maciel.bombonato@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.padariamorumbi.com.br" # the base hostname & protocol for your site
+
+# Build settings
 markdown: kramdown
-
-theme:
-  title: Padaria Morumbi
-  image_home: /img/header.png
-  keywords: "pirassununga, padaria, panificadora, morumbi"
-  description: "Para ver nossos preços entre em contato"
-  autor: "Maciel Escudero Bombonato"
-  reply: "maciel.bombonato@gmail.com"
-  facebookTitle: Padaria Morumbi
-  facebookDescription: "TESTE"
-
-  header_text: >
-     <p>TESTE 1</p>
-
-     <p>TESTE 2</p>
-
-  rss: true
-  email: "maciel.bombonato@gmail.com"
-
-  google_analytics: "UA-XXXX-1"
+highlighter: null #pygments
+lsi: false
+safe: false
